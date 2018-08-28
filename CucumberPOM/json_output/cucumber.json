@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17906914899,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user opens the browser",
+            "match": {
+              "location": "HomepageSteps.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227883234,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomepageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12948802952,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user log into app",
+            "match": {
+              "location": "HomepageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17411760,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate homepage title",
+            "match": {
+              "location": "HomepageSteps.validate_homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "D:/SELENIUM/CucumberPOM/src/main/java/com/qa/features/freecrm.feature"
+  }
+]
