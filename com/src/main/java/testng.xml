@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Login Test">
+<test name="Yahoo App Test" preserve-order="true">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="URL" value="https://login.yahoo.com/"/>
+<parameter name="emailId" value="siva23492@yahoo.com"/>
+<parameter name="password" value="srk@23492"></parameter>
+<classes>
+<class name="com.test.parameter.ParameterTest"></class>
+</classes>
+</test>
+
+<test name="Yahoo App Test2" preserve-order="true">
+<parameter name="browser" value="FF"></parameter>
+<parameter name="URL" value="https://login.yahoo.com/"/>
+<parameter name="emailId" value="siva23492@yahoo.com"/>
+<parameter name="password" value="srk@23492"></parameter>
+<classes>
+<class name="com.test.parameter.ParameterTest"></class>
+</classes>
+</test>
+</suite>
+

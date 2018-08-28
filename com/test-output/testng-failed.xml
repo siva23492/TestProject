@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yahoo App Login Test]">
+  <parameter name="password" value="srk@23492"/>
+  <parameter name="browser" value="FF"/>
+  <parameter name="emailId" value="siva23492@yahoo.com"/>
+  <parameter name="URL" value="https://login.yahoo.com/"/>
+  <test name="Yahoo App Test(failed)">
+    <parameter name="password" value="srk@23492"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailId" value="siva23492@yahoo.com"/>
+    <parameter name="URL" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="com.test.parameter.ParameterTest">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.parameter.ParameterTest -->
+    </classes>
+  </test> <!-- Yahoo App Test(failed) -->
+  <test name="Yahoo App Test2(failed)">
+    <parameter name="password" value="srk@23492"/>
+    <parameter name="browser" value="FF"/>
+    <parameter name="emailId" value="siva23492@yahoo.com"/>
+    <parameter name="URL" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="com.test.parameter.ParameterTest">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.parameter.ParameterTest -->
+    </classes>
+  </test> <!-- Yahoo App Test2(failed) -->
+</suite> <!-- Failed suite [Yahoo App Login Test] -->
