@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.parameter.ParameterTest">
+      <class name="sampleselenium.com.Amazon">
         <methods>
-          <include name="yahooLoginTest"/>
+          <include name="loginTest"/>
+          <include name="logoutTest"/>
+          <include name="searchboxAmazonTest"/>
+          <include name="verifyLandingPageTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.parameter.ParameterTest -->
+      </class> <!-- sampleselenium.com.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
