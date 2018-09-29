@@ -1,0 +1,80 @@
+
+Collection interface is the root level interface in the collection framework. List, Queue and Set are all sub interfaces of Collection interface. JDK does not provide any direct implementations of this interface. But, JDK provides direct implementations of it’s sub interfaces.
+
+Collection interface extends Iterable interface which is a member of java.lang package. Iterable interface has only one method called iterator(). It returns an Iterator object, using that object you can iterate over the elements of Collection. Here is the class diagram of Collection interface.
+
+Collection interface contains total 15 abstract methods. 14 of it’s own and one is inherited from Iterable interface. Here is the list and descriptions of those methods.
+
+Note :
+equals() and hashcode() methods in the Collection interface are not the methods of java.lang.Object class. Because, interfaces does not inherit from Object class. Only classes in java are inherited from Object class. Any classes implementing Collection interface must provide their own version of equals() and hashcode() methods or they can retain default version inherited from Object class.
+
+“JDK does not provide any direct implementations of this interface. But, JDK provides direct implementations of it’s sub interfaces”……can u explain more detail on this?
+
+Which means that in java API there is no direct implemented class for Collection interface
+
+Hi,
+Collection interface extends Iterable interface which is a member of java.lang package.
+I have one doubt how does one interface extends other interface ? Only Classes can do the same up to my knowledge . Correct me if i’m wrong.!
+
+implements
+
+Classes implements Interface,
+whereas In case of Interface, Interface extends others interface in the same way as Class extends other class.
+
+It does not mean that extends keyword has to use with classes only , we can also use with interfaces and therefore we can are allowed to achieve multiple inheritance with respect to only interfaces (multiple inheritance is possible only with respect to interfaces by using extends keyword).
+
+How do u implemented this problem?
+thanks
+
+public Set<MyMap.Entry> entrySet()
+
+Can yoy explain me the heirarchy of Enumeration interface, Iterator interface and Collection interface.
+What inheritence relationship do they have with each other ?
+
+If they both are classes they will extend each other. If one is class and one is interface we use implements and vice verca.
+
+If supper(parents) class is interface and sub(child) class is a normal class then we can inherit using implement keyword
+
+If both classes are interface then we can inherit using extends keyword
+
+If both are interface then we can inherit using implement keyword
+
+If supper class is normal class and sub class is interface , in this condition inheritance is not possible
+
+If anything wrong in my concept … please let me know
+Thanks
+
+As below methods are already defined in Object class and each collection class will either retain it from Object class or implement its own, what was the need to declare these methods in Collection interface?
+int hashCode()
+boolean equals(Object o)
+
+both classes are interface then we can inherit using extends keyword
+
+If both are interface then we can inherit using implement keyword
+
+What is the difference between above two lines. Please give the more details.
+
+if we want to inherit a class from another class we will use extends keyword.
+if we want to inherit a interface from interfaces then will use extends keyword.
+and, if we wants to inherit a class from interface then use implements.
+ex:class A extends B.(both A&B r classes).
+ex:Interface A extends B.(both A&B r interfaces).
+ex:class A implements B.(A is class B is interface here).
+
+why interfaces are not implemented from java.lang.object class??
+
+Your email address will not be published. Required fields are marked *
+
+Comment
+
+Name *
+
+Email *
+
+Website
+
+
+
+
+
+Java Concept Of The Day © 2018 About Us Privacy Policy Contact Us

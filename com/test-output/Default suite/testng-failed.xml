@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="sampleselenium.com.Amazon">
+      <class name="automationtesting.in.AddAddressDemo">
         <methods>
-          <include name="loginTest"/>
-          <include name="logoutTest"/>
-          <include name="searchboxAmazonTest"/>
-          <include name="verifyLandingPageTest"/>
+          <include name="colorTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- sampleselenium.com.Amazon -->
+      </class> <!-- automationtesting.in.AddAddressDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

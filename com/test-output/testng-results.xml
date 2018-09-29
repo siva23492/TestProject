@@ -1,130 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46021" started-at="2018-09-17T07:01:55Z" finished-at="2018-09-17T07:02:41Z">
+  <suite name="Default suite" duration-ms="24200" started-at="2018-09-24T12:21:06Z" finished-at="2018-09-24T12:21:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46021" started-at="2018-09-17T07:01:55Z" finished-at="2018-09-17T07:02:41Z">
-      <class name="com.DataDriven.Test.DataProviderDemo">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="setUP" is-config="true" duration-ms="12674" started-at="2018-09-17T12:31:56Z" finished-at="2018-09-17T12:32:09Z">
+    <test name="Default test" duration-ms="24200" started-at="2018-09-24T12:21:06Z" finished-at="2018-09-24T12:21:30Z">
+      <class name="com.DataDriven.Test.WatsAppData">
+        <test-method status="PASS" signature="watsappAutomate()[pri:0, instance:com.DataDriven.Test.WatsAppData@7c16905e]" name="watsappAutomate" duration-ms="24161" started-at="2018-09-24T17:51:06Z" finished-at="2018-09-24T17:51:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="readDataFoRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="readDataFoRegistration" duration-ms="2695" started-at="2018-09-17T12:32:09Z" data-provider="getTestData" finished-at="2018-09-17T12:32:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[siva]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[k]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[yusafguda]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[k.s.r.krishna370@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[9.53311137E9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readDataFoRegistration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="tearDown" is-config="true" duration-ms="2291" started-at="2018-09-17T12:32:12Z" finished-at="2018-09-17T12:32:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="setUP" is-config="true" duration-ms="9444" started-at="2018-09-17T12:32:14Z" finished-at="2018-09-17T12:32:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="readDataFoRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="readDataFoRegistration" duration-ms="1943" started-at="2018-09-17T12:32:23Z" data-provider="getTestData" finished-at="2018-09-17T12:32:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rams]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[k]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ameerpet]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[rams23492@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1.23456789E9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readDataFoRegistration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="tearDown" is-config="true" duration-ms="2337" started-at="2018-09-17T12:32:25Z" finished-at="2018-09-17T12:32:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="setUP" is-config="true" duration-ms="8729" started-at="2018-09-17T12:32:28Z" finished-at="2018-09-17T12:32:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="readDataFoRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="readDataFoRegistration" duration-ms="2278" started-at="2018-09-17T12:32:36Z" data-provider="getTestData" finished-at="2018-09-17T12:32:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[krishna]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[k]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[balkampet]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[srk23492@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[9.123456677E9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readDataFoRegistration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.Test.DataProviderDemo@58651fd0]" name="tearDown" is-config="true" duration-ms="2088" started-at="2018-09-17T12:32:39Z" finished-at="2018-09-17T12:32:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.DataDriven.Test.DataProviderDemo -->
+        </test-method> <!-- watsappAutomate -->
+      </class> <!-- com.DataDriven.Test.WatsAppData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

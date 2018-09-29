@@ -16,10 +16,11 @@ public class ReadPropertiFile {
 		
 	WebDriver driver = null;
 	Properties prop=new Properties();
-	FileInputStream fis=new FileInputStream("D:\\SELENIUM\\com\\src\\main\\java\\com\\test\\data\\config.properties");
+	FileInputStream fis=new FileInputStream("C:\\Users\\LILT-71\\git\\TestProject\\com\\src\\main\\java\\com\\test\\data\\config.properties");
 	prop.load(fis);
 	System.out.println(prop.getProperty("browser"));
 	String browserName=prop.getProperty("browser");
+	
 	
 	if(browserName.equals("chrome")) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");

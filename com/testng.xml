@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Yahoo App Login Test">
 <test name="Yahoo App Test">
+<parameter name="browser" value="chrome"/>
 <parameter name="URL" value="https://login.yahoo.com/"/>
 <parameter name="emailId" value="siva23492@yahoo.com"/>
 <parameter name="password" value="srk@23492"/>
