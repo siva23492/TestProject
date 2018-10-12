@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,11 +27,14 @@ public void watsappAutomate() {//System.setProperty("webdriver.chrome.driver","C
 	  driver.manage().deleteAllCookies();
 	  driver .manage().window().maximize();
 	  
-	  driver.get("http://demo.automationtesting.in/DynamicData.html");
-      driver.findElement(By.id("save")).click();
-      WebElement e=driver.findElement(By.xpath("//div[@id='loading']//img[contains(@src,'https://randomuser')]"));
-      String ee=e.getText();
-      System.out.println(ee);
+	 driver.get("https://web.whatsapp.com/");
+	 driver.findElement(By.xpath("//span[@data-icon='menu']")).click();
+	 driver.findElement(By.xpath("//div[contains(text(),'New group')]")).click();
+	 driver.findElement(By.xpath("//input[@placeholder='Type contact name']")).sendKeys("bagavan");
+	 driver.findElement(By.xpath("//input[@placeholder='Type contact name']")).sendKeys(Keys.ENTER);
+	 driver.findElement(By.xpath("//span[@data-icon='forward-light']")).click();
+	 driver.findElement(By.xpath("//div[contains(@class,'_2S1VP copyable-text selectable-text')]")).sendKeys("testgroup");
+	 driver.findElement(By.xpath("//span[@data-icon='checkmark-light']")).click();
 	  
 }
 }
